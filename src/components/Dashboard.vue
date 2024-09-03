@@ -125,7 +125,7 @@
                                     {{ $t('edit') }}
                                 </router-link>
                                 <span class="fc_middot">|</span>
-                                <el-popconfirm width="220" @confirm="confirmDeleteSnippet(scope.row)"
+                                <el-popconfirm width="250" @confirm="confirmDeleteSnippet(scope.row)"
                                                title="Are you sure to delete this?">
                                     <template #reference>
                                         <span class="fsnip_delete">{{ $t('delete') }}</span>
@@ -222,7 +222,7 @@
                                                 relativeTimeFromUtc(snippet.updated_at)
                                             }}</span>
                                         <span class="fc_middot">|</span>
-                                        <el-popconfirm width="220" @confirm="confirmDeleteSnippet(snippet)"
+                                        <el-popconfirm width="250" @confirm="confirmDeleteSnippet(snippet)"
                                                        title="Are you sure to delete this?">
                                             <template #reference>
                                                 <span class="fsnip_delete">{{ $t('delete') }}</span>
@@ -280,7 +280,7 @@
                                             relativeTimeFromUtc(snippet.updated_at)
                                         }}</span>
                                     <span class="fc_middot">|</span>
-                                    <el-popconfirm width="220" @confirm="confirmDeleteSnippet(snippet)"
+                                    <el-popconfirm width="250" @confirm="confirmDeleteSnippet(snippet)"
                                                    :title="$t('Are you sure to delete this?')">
                                         <template #reference>
                                             <span class="fsnip_delete">{{ $t('delete') }}</span>
